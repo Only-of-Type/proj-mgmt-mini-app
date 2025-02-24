@@ -1,3 +1,4 @@
+import Button from './common/Button';
 import Input from './common/Input';
 import TextArea from './common/TextArea';
 
@@ -8,8 +9,8 @@ function NewProject() {
       <TextArea label='Description' />
       <Input label='Due Date' inputType='text' />
       <div className='flex gap-5'>
-        <button>Save</button>
-        <button>Cancel</button>
+        <Button label='Cancel' buttonStyle='secondary' />
+        <Button label='Save' />
       </div>
     </div>
   );

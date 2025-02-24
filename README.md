@@ -1,16 +1,25 @@
 # Project Management Mini-App
 
-Mini Project Management appplication for practice. 
+Mini Project Management appplication for practice.
+
+## Author Info
+
+[Crystal C](mailto:crystal.m.clark@proton.me)
+[Github] (https://github.com/Only-of-Type)
+[LinkedIn](https://www.linkedin.com/in/crystal-clark)
 
 ## Quick Package Summary
 
+- React
+  - Vite project creation
+  - React classnames
+- TypeScript
+- Tailwind.css
 
-* React 
-  * Vite project creation
-  * React classnames
-* TypeScript
-* Tailwind.css
+## Running
 
+npm run dev
+Should open on http://localhost:5173
 
 ## Contributing
 
