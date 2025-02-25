@@ -4,8 +4,10 @@ Mini Project Management appplication for practice.
 
 ## Author Info
 
-[Crystal C](mailto:crystal.m.clark@proton.me)
-[Github] (https://github.com/Only-of-Type)
+[Crystal C - Email](mailto:crystal.m.clark@proton.me)
+
+[Github](https://github.com/Only-of-Type)
+
 [LinkedIn](https://www.linkedin.com/in/crystal-clark)
 
 ## Quick Package Summary
