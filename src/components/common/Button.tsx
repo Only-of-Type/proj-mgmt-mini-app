@@ -22,7 +22,7 @@ function Button({
   const primaryStyles = 'bg-rose-700 hover:bg-rose-900';
   const secondaryStyles = 'bg-nymph-700 hover:bg-nymph-900';
   const classes = classnames(
-    'rounded-md px-5 py-2 flex items-center relative w-min text-nowrap gap-1 text-cream-300',
+    'w-full max-w-[10rem] justify-center rounded-md px-5 py-2 text-lg flex items-center relative text-nowrap gap-1 text-cream-300',
     {
       [primaryStyles]: buttonStyle === 'primary',
       [secondaryStyles]: buttonStyle === 'secondary',

@@ -11,8 +11,9 @@ function TextArea({ label }: TextAreaProps) {
     <div className='flex flex-col w-full'>
       <label htmlFor={generateLabel(label)}>{label}</label>
       <textarea
-        className='border-2 border-solid rounded-md p-2'
+        className='border-2 border-solid rounded-md p-2 border-nymph-200'
         name={generateLabel(label)}
+        id={generateLabel(label)}
       />
     </div>
   );

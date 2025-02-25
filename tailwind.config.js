@@ -5,6 +5,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
       colors: {
         raisin: {
           100: '#cfcfd4',
@@ -51,15 +54,15 @@ export default {
           900: '#be4a47',
         },
         rose: {
-          100: '#e6bdc0',
-          200: '#dfadb1',
-          300: '#d79da2',
-          400: '#d08d94',
-          500: '#c87d85',
-          600: '#c06d77',
-          700: '#b75d69',
-          800: '#9f505a',
-          900: '#87434c',
+          100: '#ddb3c7',
+          200: '#d4a1b9',
+          300: '#ca8eac',
+          400: '#c07c9f',
+          500: '#b66a92',
+          600: '#ac5785',
+          700: '#a14478',
+          800: '#8b3a67',
+          900: '#763057',
         },
         cream: {
           100: '#fdfafa',

@@ -12,8 +12,9 @@ function Input({ label, inputType }: InputProps) {
     <div className='flex flex-col w-full'>
       <label htmlFor={generateLabel(label)}>{label}</label>
       <input
-        className='border-2 border-solid rounded-md p-2'
+        className='border-2 border-solid border-nymph-200 rounded-md p-2'
         name={generateLabel(label)}
+        id={generateLabel(label)}
         type={inputType}
       />
     </div>
