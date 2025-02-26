@@ -8,7 +8,7 @@ function Navigation({ ...props }) {
       <menu>
         <li>
           <a href='#' title='Go to Homepage'>
-            <img src='/compasslogo.svg' alt='' className='h-12' />
+            <img src='/compasslogosimple.svg' alt='' className='h-12' />
           </a>
         </li>
       </menu>
