@@ -20,9 +20,10 @@ function Button({
 }: ButtonType) {
   //    Button styles
   const primaryStyles = 'bg-rose-700 hover:bg-rose-900';
-  const secondaryStyles = 'bg-nymph-700 hover:bg-nymph-900';
+  const secondaryStyles =
+    '!border-nymph-700 hover:bg-nymph-500 text-nymph-900 hover:text-cream-300';
   const classes = classnames(
-    'w-full max-w-[10rem] justify-center rounded-md px-5 py-2 text-lg flex items-center relative text-nowrap gap-1 text-cream-300',
+    'w-full max-w-[10rem] justify-center rounded-full px-5 py-2 text-lg flex items-center relative text-nowrap gap-1 text-cream-300 border-2 border-transparent',
     {
       [primaryStyles]: buttonStyle === 'primary',
       [secondaryStyles]: buttonStyle === 'secondary',
@@ -31,7 +32,7 @@ function Button({
   );
   return (
     <button className={classes} disabled={isDisabled}>
-      {icon && <span className='pb-1'>+</span>}
+      {icon && <span>+</span>}
       {label}
     </button>
   );
