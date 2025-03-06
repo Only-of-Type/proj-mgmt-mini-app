@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <main className='h-dvh grid grid-cols-6 xl:grid-cols-12'>
         <Sidebar />
         <NewProject />

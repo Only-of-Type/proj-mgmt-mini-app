@@ -5,7 +5,6 @@ export interface ButtonType {
   label: string;
   icon?: ReactNode;
   iconPosition?: 'left' | 'right';
-  isDisabled?: boolean;
   buttonStyle?: 'primary' | 'secondary';
   buttonType?: 'button' | 'icon';
 }
@@ -14,7 +13,6 @@ function Button({
   label,
   icon,
   iconPosition,
-  isDisabled,
   buttonStyle = 'primary',
   buttonType,
 }: ButtonType) {
@@ -31,7 +29,7 @@ function Button({
     }
   );
   return (
-    <button className={classes} disabled={isDisabled}>
+    <button className={classes}>
       {icon && <span>+</span>}
       {label}
     </button>

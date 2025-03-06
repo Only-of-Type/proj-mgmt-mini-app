@@ -1,6 +1,6 @@
-# Project Management Mini-App
+# (Not Complete)My Direction Project Management Mini-App
 
-Mini Project Management appplication for practice.
+My Direction Mini Project Management appplication for practice.
 
 ## Author Info
 
@@ -21,7 +21,7 @@ Mini Project Management appplication for practice.
 ## Running
 
 npm run dev
-Should open on http://localhost:5173
+Should open on http://localhost:5173 by default
 
 ## Contributing
 
